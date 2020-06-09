@@ -1,3 +1,7 @@
 /*******************************
          Site Overrides
 *******************************/
+
+.ui.menu {
+    border-radius: 0 !important;
+}

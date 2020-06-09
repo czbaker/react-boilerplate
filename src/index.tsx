@@ -1,12 +1,13 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
+import 'mobx-react/batchingForReactDom';
 
 // App mount point
 import { App } from './components/App';
 
 // CSS
 import 'semantic-ui-less/semantic.less';
-import './App.css';
+import './app.css';
 
 ReactDOM.render(
     <App />,
