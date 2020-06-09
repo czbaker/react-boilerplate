@@ -6,7 +6,7 @@ import { App } from './components/App';
 
 // CSS
 import 'semantic-ui-less/semantic.less';
-import './app.css';
+import './App.css';
 
 ReactDOM.render(
     <App />,
